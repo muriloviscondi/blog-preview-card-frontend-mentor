@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #f4d04e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+a,
+span,
+p {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card-container {
+  background-color: #fff;
+  border-radius: 1.25rem;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px #000;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 32.625rem;
+  padding: 1.5rem;
+  width: 24rem;
+}
+
+.image-content {
+  max-height: 12.5rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tag {
+  padding: 0.2rem 0;
+}
+
+.tag span {
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+  font-weight: 900;
+  padding: 0.25rem 0.75rem;
+}
+
+.published {
+  font-weight: 500;
+}
+
+.title {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-decoration: none;
+  transition: 150ms ease-in-out;
+}
+
+.title:hover {
+  color: var(--primary-color);
+  transition: 150ms ease-in-out;
+}
+
+.description {
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-body {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.name-author {
+  font-weight: 900;
+}
